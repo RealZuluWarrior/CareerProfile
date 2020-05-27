@@ -1,0 +1,167 @@
+/*nav*/
+#nav-block {
+    padding: 20px;
+}
+
+nav span {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav span:hover {
+    background-color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: solid;
+    border-color: black;
+
+}
+
+nav a {
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: x-large;
+    color: black;
+    text-shadow: 3px 5px 3px grey;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: chartreuse;
+    text-shadow: 3px 5px 3px black;
+}
+
+/*Body*/
+#bg {
+    background-image: url("images/img5-grey.jpg");
+    background-position: center;
+    position: relative;
+    padding-left: 20px;
+    padding-top: 10%;
+    padding-right: 20px;
+    padding-bottom: 40%;
+    filter: blur(12px);
+    margin: 20px;
+    align-self: center;
+    max-width: 100%;
+    max-height: 100%;
+    background-repeat: no-repeat;
+    background-size: 1800px 1200px;
+}
+
+#landing {
+    position: absolute;
+    padding-left: 10%;
+    padding-right: 10%;
+    max-width: 100%;
+    width: 720px;
+    top: 0;
+}
+
+#landing span {
+    position: inherit;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: 200px;
+    border-style: solid;
+    border-color: white;
+    border-width: 9px;
+}
+
+#landing span h1 {
+    margin: inherit;
+    padding: inherit;
+    font-family: 'Courier New', Courier, monospace;
+    color: cornsilk;
+    font-size: 50pt;
+}
+
+/*About*/
+
+#about {
+    background-size: 1800px 1200px;
+    padding: 20px;
+    margin: 20px;
+}
+
+#about p {
+    font-family: sans-serif;
+    word-wrap: normal;
+    width: 70%;
+    line-height: 1.6;
+    font-size: large;
+    padding: 20px;
+}
+
+#about img {
+    padding: 20px;
+    border-radius: 50% 50%;
+    max-width: 150px;
+    max-height: 150px;
+    float: left;
+}
+
+h1 {
+    padding-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul {
+    font-family: sans-serif;
+    word-wrap: normal;
+    text-align: left;
+    width: 70%;
+    line-height: 1.6;
+    font-size: large;
+    padding: 20px;
+}
+
+#mywork p {
+    font-family: sans-serif;
+    word-wrap: normal;
+    width: 70%;
+    line-height: 1.6;
+    font-size: large;
+    padding-bottom: 10px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+#services p {
+    font-family: sans-serif;
+    word-wrap: normal;
+    width: 70%;
+    line-height: 1.6;
+    font-size: large;
+    padding-bottom: 10px;
+}
+
+#contacts p {
+    font-family: sans-serif;
+    word-wrap: normal;
+    width: 70%;
+    line-height: 1.6;
+    font-size: large;
+    padding-bottom: 10px;
+}
+#footer
+{
+    background-color: dimgray;
+    padding: 40px;
+
+}
+#footer p{
+    font-family: 'Courier New', Courier, monospace;  
+}
+
+
